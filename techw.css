@@ -81,6 +81,7 @@ a{
     font-size: 18px;
     border-style: none;
     width: 160px;
+    min-width: 140px;
     height: 60px;
     line-height: 56px;
     margin-left: 20px;
@@ -1437,4 +1438,6 @@ a.cta_button:hover span{
     /* bottom: -12px; */
 }
 .go_up_arrow_position_fixed {position: fixed;bottom: 0px;left: 0px;right: 0px;}
+
+
 

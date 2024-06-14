@@ -1,0 +1,284 @@
+/* 
+@media(max-width: 1000px) and (min-width: 800px){
+    .single_Service_box{background: red;
+    
+    }
+}
+
+@media(min-width: 300px) and (max-width: 700px){
+    .single_Service_box{background: rgb(0, 255, 21);
+    
+    }
+}
+@media (max-width: 250px){
+    .single_Service_box{background: rgb(43, 0, 255);
+    
+    }
+} */
+@media(max-width:1024px){
+    body{
+        overflow-x: hidden;
+    }
+
+    button.get_start {
+    display: none;
+     }
+     .menu {
+        display: none;
+    }
+    .container{
+        width: 100%;
+    }
+    section#services {
+        height: 1200px;
+    }
+    .single_Service_box {
+        width: 48%;
+        margin: 15px 5px;
+    }
+    .services_box {
+        flex-wrap: wrap;
+    }
+    
+}
+@media(max-width:768px){
+    body{
+        overflow-x: hidden;
+    }
+    .container{
+        width: 100%;
+    }
+    .menu {
+        display: none;
+    }
+    .get_start{
+        font-size: 15px;
+    }
+    .shape1 {
+        display: none;
+    }
+    .shape2 {
+        display: none;
+    }
+    .shape3 {
+        display: none;
+    }
+    .shape4 {
+        display: none;
+    }
+    .hero_left_C h2 {
+        font-size: 40px !important;
+        line-height: 45px !important;
+    }
+    .hero_left_C {
+        text-align: center;
+    }
+    .hero_hidec {
+        display: none;
+    }
+    section#services {
+        height: 1200px;
+    }
+    .single_Service_box {
+        width: 48%;
+        margin: 15px 5px;
+    }
+    .services_box {
+        flex-wrap: wrap;
+    }
+    .single_Service_box {
+        width: 90%;
+        margin-bottom: 15px;
+    }
+    .About_wrapper {
+        flex-direction: column;
+    }
+    .About_Sm2 {
+        display: none;
+    }
+    .About_big2 {
+        width: 100%;
+    }
+    .About_big2 img {
+        width: 100%;
+    }
+    .play_icon {
+        top: 50%;
+       right: 25%;
+    }
+    .counters_wrapper {
+        flex-direction: column;
+    }
+    .counter {
+        width: 100%;
+        margin-top: 15px;
+        border: 1px solid;
+    }
+    .counter:last-child {
+         border-right: 1px solid; 
+    }
+    .why_chose_us_boxes {
+        flex-direction: column;
+    }
+    .why_chose_title {
+        width: 100%;
+    }
+    .chose_us_boxe {
+        width: 95%;
+        margin-top: 10px;
+    }
+    .chose_us_boxe img{
+        width: 100%;
+    }
+    .skills_wrappaer {
+        flex-direction: column;
+    }
+    .skill_percentige_wrapper {
+        margin-left: 0px;
+        margin-bottom: 50px;
+    }
+    .case_atudy_image_slider {
+        flex-direction: column;
+    }
+    .single_case_study1 {
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+        border-radius: 20px !important;
+    }
+    .single_case_study1 img {
+        border-radius: 20px;
+    }
+    #case_study{
+        height: 1600px;
+    }
+    .box_gradient_study{
+        display: none;
+    }
+    .testimonial_boxes {
+        flex-direction: column;
+        height: 600px;
+    }
+    .single_testimonial {
+        width: 95%;
+        height: 300px;
+        padding: 20px;
+        margin-top: 20px;
+    }
+    .single_testimonial.active {
+        margin-left: 0px;
+    }
+    .slider_navigation {
+        display: none;
+    }
+    .team_people {
+       flex-direction: column;
+    }
+    .team_person {
+        width: 100%;
+        overflow: hidden;
+    }
+    .team_person img {
+        width: 100%;
+    }
+
+    .news_list {
+    flex-direction: column;
+    }
+    .single_news {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .cta_info {
+        flex-direction: column;
+    }
+    .footer_cTA {
+        height: 230px;
+    }
+    .cta_info{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    a.cta_button{
+        margin-bottom: 20px;
+    }
+    .footer_widget_wrapper {
+        flex-direction: column;
+    }
+    .footer_widget {
+        width: 100%;margin-bottom: 50px;
+    }
+    .cta_info h1{
+        padding-top: 70px;
+        padding-left: 0px;
+    }
+    .footer_cTA {
+        height: 250px;
+        top: -130px;
+    }
+    .single_testimonial_ceo_info_wrappaer{
+        width: 60%;
+    }
+    .single_testimonial_ceo_info_wrappaer img{
+        left: 35px;
+    }
+}
+
+
+
+@media(max-width:600px){
+    body{
+        overflow-x: hidden;
+    }
+    .services_box {
+        flex-direction: column;
+        }
+        .single_Service_box {
+            width: 90%;
+            margin-bottom: 15px;
+        }
+        section#services {
+            height: 1200px;
+        }
+        .counters_wrapper {
+            padding: 0px 10px;
+        }
+        #case_study{
+            height: 1100px;
+        }
+        .single_testimonial {
+            width: 95%;
+            height: 500px;
+            padding: 20px;
+            margin-top: 20px;
+          
+        }
+        .testimonial_boxes {
+            height: 1000px;
+        }
+        .slider_navigation {
+            display: none;
+        }
+        .footer_cTA {
+            height: 330px;
+        }
+        .footer_cTA {
+            height: 250px;
+            top: -130px;
+        }
+        a.cta_button{
+            width: 230px;
+        }
+}
+
+@media(max-width:450px){
+    .cta_info h1{
+        font-size: 22px;
+    }
+    section#services {
+        height: 1500px;
+    }
+    .skills_content_left {
+        margin-right: 10px;
+    }
+}
