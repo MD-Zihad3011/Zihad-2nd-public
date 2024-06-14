@@ -17,7 +17,7 @@
 } */
 @media(max-width:1024px){
     body{
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
 
     button.get_start {
@@ -28,6 +28,7 @@
     }
     .container{
         width: 100%;
+         overflow-x: hidden !important;
     }
     section#services {
         height: 1200px;
@@ -43,10 +44,10 @@
 }
 @media(max-width:768px){
     body{
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
     .container{
-        width: 100%;
+        width: 100%;  overflow-x: hidden !important;
     }
     .menu {
         display: none;
@@ -228,7 +229,7 @@
 
 @media(max-width:600px){
     body{
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
     .services_box {
         flex-direction: column;
@@ -272,6 +273,7 @@
 }
 
 @media(max-width:450px){
+     overflow-x: hidden !important;
     .cta_info h1{
         font-size: 22px;
     }
