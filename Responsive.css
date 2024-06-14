@@ -47,7 +47,7 @@
         overflow-x: hidden !important;
     }
     .container{
-        width: 100%;  overflow-x: hidden !important;
+        width: 100%;  overflow-x: auto !important;
     }
     .menu {
         display: none;
@@ -227,7 +227,7 @@
 
 
 
-@media(max-width:600px){
+/*@media(max-width:600px){
     body{
         overflow-x: hidden !important;
     }
@@ -283,4 +283,4 @@
     .skills_content_left {
         margin-right: 10px;
     }
-}
+}*/
