@@ -230,6 +230,7 @@
 @media(max-width:600px){
     body{
         overflow-x: hidden !important;
+        width:100%;
     }
     .services_box {
         flex-direction: column;
