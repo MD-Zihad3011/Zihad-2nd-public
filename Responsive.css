@@ -19,6 +19,9 @@
     body{
         overflow-x: hidden !important;
     }
+    .brand_Wrapper { 
+        flex-wrap: wrap;
+    }
 
     button.get_start {
     display: none;
@@ -48,6 +51,9 @@
     }
     .container{
         width: 100%;  overflow-x: auto !important;
+    }
+    .brand_Wrapper { 
+        flex-wrap: wrap;
     }
     .menu {
         display: none;
@@ -232,6 +238,9 @@
         overflow-x: hidden !important;
         width:100%;
     }
+    .brand_Wrapper { 
+        flex-wrap: wrap;
+    }
     .services_box {
         flex-direction: column;
         }
@@ -283,5 +292,8 @@
     }
     .skills_content_left {
         margin-right: 10px;
+    }
+    .brand_Wrapper { 
+        flex-wrap: wrap;
     }
 }
