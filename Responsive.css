@@ -23,6 +23,7 @@
         flex-wrap: wrap;
          width: 48%;
         margin: 15px 5px;
+         flex-direction: column !important;
     }
 
     button.get_start {
@@ -58,6 +59,7 @@
         flex-wrap: wrap;
          width: 48%;
         margin: 15px 5px;
+         flex-direction: column !important;
     }
     .menu {
         display: none;
@@ -246,6 +248,7 @@
         flex-wrap: wrap;
          width: 48%;
         margin: 15px 5px;
+         flex-direction: column !important;
     }
     .services_box {
         flex-direction: column;
@@ -303,5 +306,6 @@
         flex-wrap: wrap;
          width: 48%;
         margin: 15px 5px;
+         flex-direction: column !important;
     }
 }
